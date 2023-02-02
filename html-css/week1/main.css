@@ -1,0 +1,66 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Oxygen", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Mono", monospace;
+  background-color: #f2ebf5;
+}
+#main-content {
+  min-height: 100vh;
+  width: 80%;
+  margin: 2rem auto;
+  display: grid;
+  /* grid-template-columns: repeat(7, 1fr);*/
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column: span 5;
+}
+.left-section {
+  grid-column: span 1;
+  height: 100%;
+  background-color: #8594e4;
+}
+.right-section {
+  grid-column: span 2;
+  height: 100%;
+  background-color: #d5def5;
+}
+.avatar {
+  border-radius: 200pt;
+  border-style: solid;
+  border-color: purple;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+.text {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.profile {
+  color: antiquewhite;
+  margin-left: 50px;
+}
+.ideals:hover {
+  color: purple;
+  cursor: pointer;
+}
+.credolab:hover {
+  color: purple;
+  cursor: pointer;
+}
+.ignite:hover {
+  color: purple;
+  cursor: pointer;
+}
+.skills {
+  margin-left: 50px;
+  color: antiquewhite;
+  padding-top: 20px;
+}
+#contact-info {
+  list-style-type: none;
+}
+#skills {
+  list-style: none;
+  margin-left: auto;
+}
